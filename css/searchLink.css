@@ -1,0 +1,57 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.searchKey{
+		float: left;
+		border-width: 2px 0 2px 2px;
+    	border-color: #B61D1D;
+    	padding: 4px;
+    	font-size: 14px;
+    	font-family: "microsoft yahei";
+    	border-style: solid;
+	}	
+	.searchBtn{
+		float: left;
+    	background: #B61D1D;
+    	border: none;
+    	line-height: 1;
+    	color: #fff;
+    	font-family: "Microsoft YaHei";
+    	font-size: 16px;
+    	cursor: pointer;
+	}
+	.boxdiv{
+		position:relative;
+		cursor: pointer;
+	}
+	.helper{
+		list-style: none;
+		overflow: hidden;
+    	position: absolute;
+    	top: 35px;
+    	left: 0;
+    	border: 1px solid #CCC;
+    	background: #fff;
+    	font-size: 12px;
+    	line-height: 150%;
+    	font-family: Arial, Verdana, 宋体;
+		display: none;
+	}
+	.helper li{
+		padding-left: 5px;
+		height: 24px;
+		line-height: 24px;
+		vertical-align: middle;
+	}
+	.onhover{
+		background-color: #DB8888;
+	}
+	.count,#close{
+		display: inline-block;
+    	float: right;
+    	padding-right: 5px;
+	}
+	.ultwo{
+		border-top: 1px solid #CCC;
+	}
