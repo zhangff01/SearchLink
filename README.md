@@ -3,8 +3,7 @@
 
 基于jQuery实现
 
-        主要参数(参数以对象形式传入，参数不传以以下则为默认值)
-        ```javascript
+	主要参数(参数以对象形式传入，参数不传以以下则为默认值)
         Settings={
 			textwidth:400,
 			btnwidth:82,
@@ -26,7 +25,7 @@
     		    </script>
     	    </div>
     	</body>
-	```
+
 注：
     
     示例中读取的是本地json文件，高版本的IE、chrome和火狐是禁止读取本地json数据的
